@@ -8,31 +8,31 @@ import { Link } from "react-router-dom";
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: "Yondela Tshika",
-      title: "Principal Attorney",
+      name: "Thembakazi Kolisi",
+      title: "Legal Secretary",
       image: "/placeholder.svg",
-      credentials: ["LLB", "Admitted Attorney"],
-      specializations: ["Criminal Law", "RAF Claims", "Civil Litigation"],
-      experience: "15+ years",
-      description: "Leading criminal defense attorney with extensive experience in high-profile cases and RAF claims."
+      credentials: ["Legal Secretary", "Administrative Support"],
+      specializations: ["Client Relations", "Document Management", "Administrative Support"],
+      experience: "Professional",
+      description: "Dedicated legal secretary ensuring smooth administrative operations and exceptional client service."
     },
     {
-      name: "Nandipha Mthembu",
-      title: "Senior Associate",
+      name: "Mila Tshaka",
+      title: "Junior Secretary", 
       image: "/placeholder.svg",
-      credentials: ["LLB", "Family Law Specialist"],
-      specializations: ["Family Law", "Divorce", "Child Custody"],
-      experience: "8+ years",
-      description: "Compassionate family law expert dedicated to protecting families through difficult transitions."
+      credentials: ["Junior Secretary", "Office Administration"],
+      specializations: ["Filing", "Client Communication", "Office Management"],
+      experience: "Emerging Professional",
+      description: "Enthusiastic junior secretary committed to supporting our legal team and assisting clients."
     },
     {
-      name: "Sipho Khumalo",
-      title: "Legal Associate",
+      name: "Sanele Hlazo",
+      title: "Legal Intern",
       image: "/placeholder.svg",
-      credentials: ["LLB", "Commercial Law"],
-      specializations: ["Contract Law", "Commercial Disputes", "Wills"],
-      experience: "5+ years",
-      description: "Detail-oriented commercial law specialist ensuring your business interests are protected."
+      credentials: ["Legal Intern", "Law Student"],
+      specializations: ["Legal Research", "Case Preparation", "Document Review"],
+      experience: "Legal Student",
+      description: "Motivated legal intern gaining valuable experience while contributing to our legal research and case preparation."
     }
   ];
 
