@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { MessageCircle, Award, Users, Calendar, Target } from "lucide-react";
-import lawyerPortrait from "@/assets/lawyer-portrait.jpg";
+
 
 const About = () => {
   const whatsappUrl = "https://wa.me/27739352207?text=Hi%20Y%20Tshika%20Attorneys,%20I%20would%20like%20to%20learn%20more%20about%20your%20firm...";
@@ -103,7 +103,7 @@ const About = () => {
               <div className="order-1 lg:order-2">
                 <div className="relative">
                   <img
-                    src={lawyerPortrait}
+                    src="/placeholder.svg"
                     alt="Yondela Tshika - Principal Attorney"
                     className="w-full rounded-xl shadow-[var(--shadow-elegant)]"
                   />
