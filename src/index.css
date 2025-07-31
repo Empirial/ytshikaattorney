@@ -2,39 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Y Tshika Attorneys Inc. Design System - Professional Legal Firm Branding
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 220 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep Blue - Trust & Authority */
+    --primary: 215 85% 20%;
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 215 85% 35%;
+    
+    /* Gold Accent - Sophistication */
+    --accent: 45 90% 60%;
+    --accent-foreground: 220 20% 15%;
+    --accent-muted: 45 70% 85%;
+    
+    /* Professional Greys */
+    --secondary: 220 10% 95%;
+    --secondary-foreground: 220 20% 25%;
+    
+    --muted: 220 10% 96%;
+    --muted-foreground: 220 15% 50%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 15% 90%;
+    --input: 220 15% 92%;
+    --ring: 215 85% 20%;
+    
+    /* Legal Brand Specific Colors */
+    --navy: 215 85% 15%;
+    --navy-light: 215 85% 25%;
+    --gold: 45 90% 60%;
+    --gold-light: 45 80% 75%;
+    --warm-grey: 220 8% 96%;
+    --text-light: 220 15% 60%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215 85% 20%), hsl(215 85% 35%));
+    --gradient-gold: linear-gradient(135deg, hsl(45 90% 60%), hsl(45 80% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 85% 20%) 0%, hsl(215 85% 35%) 100%);
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(215 85% 20% / 0.2);
+    --shadow-card: 0 4px 20px -2px hsl(215 85% 20% / 0.1);
+    --shadow-button: 0 4px 15px -3px hsl(215 85% 20% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s ease-out;
 
     --radius: 0.5rem;
 
@@ -100,6 +127,40 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  /* Legal Professional Typography */
+  .font-legal {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  
+  .font-sans {
+    font-family: 'Inter', 'Open Sans', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  /* Professional Button Variants */
+  .btn-hero {
+    @apply bg-gradient-to-r from-primary to-primary-light text-primary-foreground font-semibold px-8 py-4 rounded-lg shadow-[var(--shadow-button)] hover:shadow-[var(--shadow-elegant)] transition-[var(--transition-smooth)] hover:scale-105;
+  }
+  
+  .btn-gold {
+    @apply bg-accent text-accent-foreground font-semibold px-6 py-3 rounded-lg shadow-[var(--shadow-card)] hover:bg-gold-light transition-[var(--transition-smooth)];
+  }
+  
+  .btn-outline-gold {
+    @apply border-2 border-accent text-accent bg-transparent font-semibold px-6 py-3 rounded-lg hover:bg-accent hover:text-accent-foreground transition-[var(--transition-smooth)];
+  }
+  
+  /* Card Styling */
+  .card-elegant {
+    @apply bg-card border border-border rounded-xl shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-elegant)] transition-[var(--transition-smooth)];
+  }
+  
+  /* WhatsApp specific styling */
+  .whatsapp-float {
+    @apply fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-[var(--transition-smooth)] hover:scale-110;
   }
 }

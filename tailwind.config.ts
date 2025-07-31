@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -42,7 +43,8 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					muted: 'hsl(var(--accent-muted))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -51,6 +53,15 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Legal Brand Colors
+				navy: {
+					DEFAULT: 'hsl(var(--navy))',
+					light: 'hsl(var(--navy-light))'
+				},
+				gold: {
+					DEFAULT: 'hsl(var(--gold))',
+					light: 'hsl(var(--gold-light))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -62,6 +73,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				'legal': ['Playfair Display', 'Georgia', 'serif'],
+				'sans': ['Inter', 'Open Sans', 'system-ui', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
