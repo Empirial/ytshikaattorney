@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { MessageCircle, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import lawyerPortrait from "@/assets/lawyer-portrait.jpg";
+
 
 const TeamSection = () => {
   const teamMembers = [
     {
       name: "Yondela Tshika",
       title: "Principal Attorney",
-      image: lawyerPortrait,
+      image: "/placeholder.svg",
       credentials: ["LLB", "Admitted Attorney"],
       specializations: ["Criminal Law", "RAF Claims", "Civil Litigation"],
       experience: "15+ years",
