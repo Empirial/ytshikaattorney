@@ -7,6 +7,15 @@ import { Link } from "react-router-dom";
 
 const TeamSection = () => {
   const teamMembers = [
+     {
+      name: "Yolanda Tshika ",
+      title: "Principal Attorney",
+      image: "/placeholder.svg",
+      credentials: ["LLB Degree", "Admitted Attorney", "Criminal Law Specialist"],
+      specializations: ["RAF Claims", "Criminal Defense", "Civil Litigation"],
+      experience: "Professional",
+      description: "Specializing in criminal defense, RAF claims, and civil litigation, represented hundreds of clients across diverse legal matters."
+    },
     {
       name: "Thembakazi Kolisi",
       title: "Legal Secretary",
