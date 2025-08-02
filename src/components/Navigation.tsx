@@ -30,7 +30,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/ecc45c17-5935-4a92-89e2-6ee1abaef104.png" 
               alt="Y Tshika Attorneys Logo" 
-              className="h-10 w-auto"
+              className="h-24 w-auto"
             />
           </Link>
 
