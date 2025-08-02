@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 const TeamSection = () => {
   const teamMembers = [
      {
-      name: "Yolanda Tshika ",
+      name: "Yondela Tshika",
       title: "Principal Attorney",
-      image: "/placeholder.svg",
+      image: "/src/assets/team-yondela-anime.png",
       credentials: ["LLB Degree", "Admitted Attorney", "Criminal Law Specialist"],
       specializations: ["RAF Claims", "Criminal Defense", "Civil Litigation"],
       experience: "Professional",
@@ -19,7 +19,7 @@ const TeamSection = () => {
     {
       name: "Thembakazi Kolisi",
       title: "Legal Secretary",
-      image: "/placeholder.svg",
+      image: "/src/assets/team-thembakazi-anime.png",
       credentials: ["Legal Secretary", "Administrative Support"],
       specializations: ["Client Relations", "Document Management", "Administrative Support"],
       experience: "Professional",
@@ -28,7 +28,7 @@ const TeamSection = () => {
     {
       name: "Mila Tshaka",
       title: "Junior Secretary", 
-      image: "/placeholder.svg",
+      image: "/src/assets/team-mila-anime.png",
       credentials: ["Junior Secretary", "Office Administration"],
       specializations: ["Filing", "Client Communication", "Office Management"],
       experience: "Emerging Professional",
@@ -37,7 +37,7 @@ const TeamSection = () => {
     {
       name: "Sanele Hlazo",
       title: "Legal Intern",
-      image: "/placeholder.svg",
+      image: "/src/assets/team-sanele-anime.png",
       credentials: ["Legal Intern", "Law Student"],
       specializations: ["Legal Research", "Case Preparation", "Document Review"],
       experience: "Legal Student",

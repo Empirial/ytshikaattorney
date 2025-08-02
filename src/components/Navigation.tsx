@@ -27,7 +27,11 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Scale className="h-8 w-8 text-primary" />
+            <img 
+              src="/lovable-uploads/ecc45c17-5935-4a92-89e2-6ee1abaef104.png" 
+              alt="Y Tshika Attorneys Logo" 
+              className="h-8 w-auto"
+            />
             <div className="font-legal font-bold text-xl text-primary">
               Y Tshika Attorneys
             </div>
