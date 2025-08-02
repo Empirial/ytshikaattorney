@@ -34,7 +34,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/lovable-uploads/ecc45c17-5935-4a92-89e2-6ee1abaef104.png" alt="Y Tshika Attorneys Logo" className="h-8 w-auto" />
+              <img src="/lovable-uploads/ecc45c17-5935-4a92-89e2-6ee1abaef104.png" alt="Y Tshika Attorneys Logo" className="h-12 w-auto" />
               
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
