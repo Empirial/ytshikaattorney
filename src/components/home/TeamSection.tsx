@@ -10,7 +10,7 @@ const TeamSection = () => {
      {
       name: "Yondela Tshika",
       title: "Principal Attorney",
-      image: "/src/assets/team-yondela-anime.png",
+      image: "/src/assets/yondelatshika.jpg",
       credentials: ["LLB Degree", "Admitted Attorney", "Criminal Law Specialist"],
       specializations: ["RAF Claims", "Criminal Defense", "Civil Litigation"],
       experience: "Professional",
