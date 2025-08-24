@@ -103,7 +103,7 @@ const About = () => {
               <div className="order-1 lg:order-2">
                 <div className="relative">
                   <img
-                    src="/placeholder.svg"
+                    src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=800"
                     alt="Yondela Tshika - Principal Attorney"
                     className="w-full rounded-xl shadow-[var(--shadow-elegant)]"
                   />
