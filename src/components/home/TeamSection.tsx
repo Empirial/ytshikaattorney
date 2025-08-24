@@ -10,7 +10,7 @@ const TeamSection = () => {
      {
       name: "Yondela Tshika",
       title: "Principal Attorney",
-      image: "/src/assets/yondelatshika.jpg",
+      image: "/src/assets/yondelatshika.png",
       credentials: ["LLB Degree", "Admitted Attorney", "Criminal Law Specialist"],
       specializations: ["RAF Claims", "Criminal Defense", "Civil Litigation"],
       experience: "Professional",
@@ -19,7 +19,7 @@ const TeamSection = () => {
     {
       name: "Thembakazi Kolisi",
       title: "Legal Secretary",
-      image: "/src/assets/team-thembakazi-anime.png",
+      image: "/src/assets/themabakizikolisi.png",
       credentials: ["Legal Secretary", "Administrative Support"],
       specializations: ["Client Relations", "Document Management", "Administrative Support"],
       experience: "Professional",
@@ -28,7 +28,7 @@ const TeamSection = () => {
     {
       name: "Mila Tshaka",
       title: "Junior Secretary", 
-      image: "/src/assets/team-mila-anime.png",
+      image: "/src/assets/milatshaka.png",
       credentials: ["Junior Secretary", "Office Administration"],
       specializations: ["Filing", "Client Communication", "Office Management"],
       experience: "Emerging Professional",
@@ -37,7 +37,7 @@ const TeamSection = () => {
     {
       name: "Sanele Hlazo",
       title: "Legal Intern",
-      image: "/src/assets/team-sanele-anime.png",
+      image: "/src/assets/Sanelehlazo.png",
       credentials: ["Legal Intern", "Law Student"],
       specializations: ["Legal Research", "Case Preparation", "Document Review"],
       experience: "Legal Student",
