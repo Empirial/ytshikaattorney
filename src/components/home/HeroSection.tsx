@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, FileText, Scale } from "lucide-react";
-import heroImage from "@/assets/hero-law-office.jpg";
 
 const HeroSection = () => {
   const whatsappConsultUrl = "https://wa.me/27739352207?text=Hi%20Y%20Tshika%20Attorneys,%20I%20would%20like%20to%20book%20a%20consultation...";
@@ -11,7 +10,7 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroImage}
+          src="https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Y Tshika Attorneys Office"
           className="w-full h-full object-cover"
         />
