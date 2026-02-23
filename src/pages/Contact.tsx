@@ -64,7 +64,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Address",
-      details: "info@ytshikaattorneys.co.za",
+      details: "yondelatshika@gmail.com",
       subtext: "We respond within 24 hours"
     },
     {
